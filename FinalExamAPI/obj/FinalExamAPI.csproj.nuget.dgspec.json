@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\somas\\source\\repos\\FinalExam\\FinalExamAPI\\FinalExamAPI.csproj": {}
+    "C:\\Users\\mrnvt\\source\\repos\\final-exam-mrnvcode\\FinalExamAPI\\FinalExamAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\somas\\source\\repos\\FinalExam\\FinalExamAPI\\FinalExamAPI.csproj": {
+    "C:\\Users\\mrnvt\\source\\repos\\final-exam-mrnvcode\\FinalExamAPI\\FinalExamAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\somas\\source\\repos\\FinalExam\\FinalExamAPI\\FinalExamAPI.csproj",
+        "projectUniqueName": "C:\\Users\\mrnvt\\source\\repos\\final-exam-mrnvcode\\FinalExamAPI\\FinalExamAPI.csproj",
         "projectName": "FinalExamAPI",
-        "projectPath": "C:\\Users\\somas\\source\\repos\\FinalExam\\FinalExamAPI\\FinalExamAPI.csproj",
-        "packagesPath": "C:\\Users\\somas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\somas\\source\\repos\\FinalExam\\FinalExamAPI\\obj\\",
+        "projectPath": "C:\\Users\\mrnvt\\source\\repos\\final-exam-mrnvcode\\FinalExamAPI\\FinalExamAPI.csproj",
+        "packagesPath": "C:\\Users\\mrnvt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mrnvt\\source\\repos\\final-exam-mrnvcode\\FinalExamAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\somas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mrnvt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,13 +45,39 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "MySql.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.5, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -68,7 +99,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
